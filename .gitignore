@@ -130,8 +130,6 @@ dmypy.json
 # For macs
 .DS_Store
 
-# Do not commit demo image files
-demo_image/
 public/
 public/*
 notebooks/data/
