@@ -1,0 +1,10 @@
+nibabel
+numpy
+matplotlib
+pandas
+pytorchvideo
+scipy
+scikit-learn
+scikit-image
+torch
+torchvision
