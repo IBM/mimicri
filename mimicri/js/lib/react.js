@@ -4,12 +4,12 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 const e = React.createElement;
 
-var inspector = require('../../../lib/Inspector.js');
-var framemulti = require('../../../lib/FrameMulti.js');
-var selector = require('../../../lib/Selector.js');
-var subsetSelector = require('../../../lib/SubsetSelector.js');
-var video = require('../../../lib/VideoRender.js');
-var videomulti = require('../../../lib/VideoMulti.js');
+var inspector = require('./lib/Inspector.js');
+var framemulti = require('./lib/FrameMulti.js');
+var selector = require('./lib/Selector.js');
+var subsetSelector = require('./lib/SubsetSelector.js');
+var video = require('./lib/VideoRender.js');
+var videomulti = require('./lib/VideoMulti.js');
 
 var lib = {...inspector, ...framemulti, ...selector, ...subsetSelector, ...video, ...videomulti};
 

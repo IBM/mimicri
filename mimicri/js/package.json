@@ -36,7 +36,23 @@
     "rimraf": "^2.6.1"
   },
   "dependencies": {
-    "@jupyter-widgets/base": "^1.1 || ^2 || ^3 || ^4 || ^6"
+    "@jupyter-widgets/base": "^1.1 || ^2 || ^3 || ^4 || ^6",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.3",
+    "@types/three": "^0.152.1",
+    "allotment": "^1.19.0",
+    "classnames": "^2.3.2",
+    "crossfilter2": "^1.5.4",
+    "d3": "^7.8.4",
+    "n": "^9.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "three": "^0.155.0",
+    "webpack": "^5.84.1",
+    "yarn": "^1.22.19"
   },
   "jupyterlab": {
     "extension": "lib/labplugin",
