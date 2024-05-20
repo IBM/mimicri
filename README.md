@@ -46,6 +46,37 @@ Clone the repo locally:
 git clone https://{YOUR_GITHUB_TOKEN}@github.com/IBM/mimicri.git
 ```
 
+Navigate to your local cloned mimicri folder and install dependencies:
+
+```
+pip install -r requirements.txt
+
+pip install mimicri
+```
+
+The package should show up when you run:
+
+```
+jupyter labextension list
+```
+
+### Developer Installation
+
+Use this installation *only* if you are making changes to the MiMICRI widget. If you are using MiMICRI as-is, the regular install (above) will be sufficient.
+
+Create a clean conda environment with the exact versions of the following packages:
+
+```
+conda create -n mimicri python=3.8 jupyterlab=3.4 ipywidgets=7.6 ipykernel=5.3
+
+conda activate mimicri
+```
+
+Clone the repo locally:
+```
+git clone https://{YOUR_GITHUB_TOKEN}@github.com/IBM/mimicri.git
+```
+
 Navigate to your local cloned mimicri folder and install other dependencies: `pip install -r requirements.txt`.
 
 Ensure that the [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) package manager has been installed.
@@ -58,6 +89,8 @@ The package should show up when you run:
 ```
 jupyter labextension list
 ```
+
+After making updates to the widget, your changes will be reflected by running `sh ./update.sh`
 
 ### Data Files and Running Demo Notebooks
 
