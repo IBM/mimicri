@@ -148,6 +148,7 @@ node_modules/
 notebooks/recombined
 notebooks/get_proportions.ipynb
 notebooks/all_predictions_all_recombinants.json
+notebooks/mainz
 
 stories/
 .storybook/

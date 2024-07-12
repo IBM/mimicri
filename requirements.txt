@@ -6,5 +6,3 @@ pytorchvideo
 scipy
 scikit-learn
 scikit-image
-torch
-torchvision

@@ -46,15 +46,41 @@ Clone the repo locally:
 git clone https://{YOUR_GITHUB_TOKEN}@github.com/IBM/mimicri.git
 ```
 
-Navigate to your local cloned mimicri folder and install dependencies:
+Navigate to your local cloned mimicri folder and install dependencies.
+
+#### THIS IS A NEW INSTALLATION AS OF 07/12/2024
+
+A recent circular dependency error in the torch module requires a new installation of the libraries needed to run MiMICRI. **If this is your first time installing MiMICRI use:**
 
 ```
+conda install pytorch torchvision -c pytorch
+
 pip install -r requirements.txt
 
 pip install mimicri
 ```
 
-The package should show up when you run:
+**If you have installed MiMICRI before, please first uninstall all existing installations of torch and torchvision:**
+
+```
+pip uninstall torch
+pip uninstall torchvision
+
+conda uninstall torch
+conda uninstall torchvision
+```
+
+Then run:
+
+```
+conda install pytorch torchvision -c pytorch
+
+pip install -r requirements.txt
+
+pip install mimicri
+```
+
+Once the dependencies have been installed correctly, the MiMICRI package should show up with:
 
 ```
 jupyter labextension list
