@@ -53,7 +53,7 @@ Navigate to your local cloned mimicri folder and install dependencies.
 A recent circular dependency error in the torch module requires a new installation of the libraries needed to run MiMICRI. **If this is your first time installing MiMICRI use:**
 
 ```
-conda install pytorch torchvision -c pytorch
+pip install torch torchvision
 
 pip install -r requirements.txt
 
