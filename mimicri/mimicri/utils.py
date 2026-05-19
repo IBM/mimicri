@@ -227,7 +227,7 @@ def replace(source, target, source_mask, target_mask):
             if target_mask[target_pixel[0]][target_pixel[1]] == 1 and source_mask[source_pixel[0]][source_pixel[1]] == 1:
                 target[target_pixel[0]][target_pixel[1]] = source[source_pixel[0]][source_pixel[1]]
             elif target_mask[target_pixel[0]][target_pixel[1]] == 1 and source_mask[source_pixel[0]][source_pixel[1]] == 0:
-                target[target_pixel[0]][target_pixel[1]] = (source[source_pixel[0]][source_pixel[1]] + target[target_pixel[0]][target_pixel[1]]) // 2
+                target[target_pixel[0]][target_pixel[1]] = np.mean([source[source_pixel[0]][source_pixel[1]], target[target_pixel[0]][target_pixel[1]]])
                 # target[target_pixel[0]][target_pixel[1]] = target_mean
                 # target[target_pixel[0]][target_pixel[1]] = 0
             elif target_mask[target_pixel[0]][target_pixel[1]] == 0 and source_mask[source_pixel[0]][source_pixel[1]] == 1:

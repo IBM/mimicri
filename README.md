@@ -73,7 +73,7 @@ conda uninstall torchvision
 Then run:
 
 ```
-conda install pytorch torchvision -c pytorch
+pip install torch torchvision
 
 pip install -r requirements.txt
 
