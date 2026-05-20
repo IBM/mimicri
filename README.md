@@ -4,7 +4,7 @@ This repository is a demonstration of the MiMICRI approach proposed in the [ACM 
 
 `MiMICRI: Towards Domain-centered Counterfactual Explanations of Cardiovascular Image Classification Models`
 
-mimicri is a python library of interactive visualizations for segmentation-based counterfactual generation, designed to work with the JupyterLab computational environment.
+MiMICRI is a python library of interactive visualizations for segmentation-based counterfactual generation, designed to work with the JupyterLab computational environment.
 
 ### Citation
 
@@ -24,7 +24,7 @@ The MiMICRI system requires images to first be pre-processed using semantic segm
 The demo uses the [ukbb_cardiac](https://github.com/baiwenjia/ukbb_cardiac) toolbox to segment cardiac MRI images from the UK Biobank.
 We have pre-downloaded and segmented two cardiac MRIs from the ukbb_cardiac toolbox.
 They are included in the `notebooks/demo_image` folder.
-We also include a notebook (`notebooks/plot_segmentation.ipynb`) to view the segmentations.
+We also include a notebook (`notebooks/plot_segmentation.ipynb`) just to view the segmentations.
 
 The demo only includes a small subset of images.
 If you would like to use the full [UK Biobank dataset](https://www.ukbiobank.ac.uk/), you must register for an account and obtain the necessary approvals.
